@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: 90vw;
+    min-height: 10vh;
+    margin: 0 auto;
+    overflow-wrap: break-word;
+    @include mq("desktop") {
+        width: 1200px;
+        min-height: 20px;
+        margin: 0 auto;
+    }
+}
+
+.container-almost-fullwidth {
+    position: relative;
+    width: 90vw;
+    min-height: 10vh;
+    margin: 0 auto;
+    @include mq("desktop") {
+        width: 98vw;
+        margin: 0 auto;
+        
+    } 
+}
+
+.container-fullwidth {
+    width: 100%;
+    position: relative;
+}
+
+.container-article {
+width: 60vw;
+position: relative;
+overflow-wrap: break-word;
+}
