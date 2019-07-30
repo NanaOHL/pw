@@ -1,9 +1,8 @@
 body {
-    overflow: hidden;
 }
 
 #logo-bottom-right {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     left:0;
     font-family: $body;

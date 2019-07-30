@@ -1,0 +1,14 @@
+#article-tease {
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        li {
+            .article-header {
+                text-transform: uppercase;
+                font-weight:200;
+                color: grey;
+            }
+        }
+    }
+}
