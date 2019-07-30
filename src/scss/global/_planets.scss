@@ -1,0 +1,125 @@
+#hero {
+    position: relative; 
+  }
+  #sun {
+    position: absolute;
+    right:-70vw;
+    z-index: -1;
+    height: 1500px ;
+    width: 1500px ;
+    background: #F2F2F2;
+    border-radius: 50%;
+  }
+    
+  
+    #planet { 
+      margin: 20px;
+      width: 100px;
+      height: 100px;
+      background: #F7F7F7;
+      -webkit-animation-name: spin;
+      -webkit-animation-duration: 4000ms;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: spin;
+      -moz-animation-duration: 4000ms;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -ms-animation-name: spin;
+      -ms-animation-duration: 4000ms;
+      -ms-animation-iteration-count: infinite;
+      -ms-animation-timing-function: linear;
+      animation-name: spin;
+      animation-duration: 50000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  @-ms-keyframes spin {
+      from { -ms-transform: rotate(0deg); }
+      to { -ms-transform: rotate(360deg); }
+  }
+  @-moz-keyframes spin {
+      from { -moz-transform: rotate(0deg); }
+      to { -moz-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+  
+  #orbit {
+    position:absolute;
+    width: 600px;
+    height: 600px;
+    right:-10px;
+    top: 30px;
+   
+    animation-name: spin;
+      animation-duration: 100000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+  
+  #r-orbit{
+    position: absolute;
+    top: 20vh;
+    right: 10vw;
+    width: 650px;
+    height: 650px;
+        -webkit-animation-name: spin;
+      -webkit-animation-duration: 2000ms;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      -moz-animation-name: spin;
+      -moz-animation-duration: 2000ms;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-timing-function: linear;
+      -ms-animation-name: spin;
+      -ms-animation-duration: 2000ms;
+      -ms-animation-iteration-count: infinite;
+      -ms-animation-timing-function: linear;
+      animation-name: spin;
+      animation-duration: 20000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+  @-ms-keyframes spin {
+      from { -ms-transform: rotate(0deg); }
+      to { -ms-transform: rotate(360deg); }
+  }
+  @-moz-keyframes spin {
+      from { -moz-transform: rotate(0deg); }
+      to { -moz-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+      from { -webkit-transform: rotate(0deg); }
+      to { -webkit-transform: rotate(360deg); }
+  }
+  @keyframes spin {
+      from {
+          transform:rotate(0deg);
+      }
+      to {
+          transform:rotate(360deg);
+      }
+  }
+  
+  
+  
+  #red {
+    position: relative;
+    top: 10px;
+    bottom: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: #d90735; //Spectre Red
+    border-radius: 50%;
+    }
