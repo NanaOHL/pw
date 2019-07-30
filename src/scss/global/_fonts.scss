@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
-@font-face {
-    font-family: Lucas;
-    src: url(../fonts/FSLucas-Regular.otf);
-  }
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap');
+
 
 $Header: 'Playfair Display', serif;
-$body-font: Lucas, sans-serif ;
+$body: 'Open Sans', sans-serif ;
+
+body {font-family:$body;}
