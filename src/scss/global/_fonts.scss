@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
 
+$header: 'Playfair Display', serif;
+$open: 'Open Sans', sans-serif ;
+$article: 'Libre Baskerville', serif;
 
-$Header: 'Playfair Display', serif;
-$body: 'Open Sans', sans-serif ;
-
-body {font-family:$body;}
+body {font-family:$open;}

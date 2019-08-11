@@ -1,0 +1,22 @@
+.blogs {
+    margin-top: 160px;
+    display: flex;
+    justify-content: center;
+    article {
+        width: 100%;
+        font-family: $article;
+        line-height:32px;
+        h1.blog-title {
+            padding-bottom: 32px;
+            font-family: $open;
+            text-transform:uppercase;
+        }
+        @include mq('tablet-wide') {
+            width:50vw;
+            
+        }
+
+
+    }
+
+}
