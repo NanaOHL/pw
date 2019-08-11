@@ -1,5 +1,5 @@
 #hero {
-    position: absolute; 
+    position: fixed; 
   }
   #sun {
     position: relative;
@@ -10,8 +10,6 @@
     background: #F2F2F2;
     border-radius: 50%;
   }
-    
-  
     #planet { 
       margin: 20px;
       width: 100px;
@@ -120,6 +118,6 @@
     bottom: 50px;
     height: 30px;
     width: 30px;
-    background-color: #d90735; //Spectre Red
+    background-color: $spctr;
     border-radius: 50%;
     }
